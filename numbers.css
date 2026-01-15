@@ -1,0 +1,24 @@
+/* Simple styles for numbers and related elements */
+.number {
+	display: inline-block;
+	padding: 0.25em 0.75em;
+	margin: 0.2em;
+	background: #e3f2fd;
+	color: #1565c0;
+	border-radius: 0.4em;
+	font-weight: bold;
+	font-size: 1.1em;
+	box-shadow: 0 1px 3px rgba(21,101,192,0.08);
+}
+
+.number-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style: none;
+	padding: 0;
+}
+
+.number-list li {
+	margin: 0;
+}
